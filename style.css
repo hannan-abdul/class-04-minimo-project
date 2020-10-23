@@ -1,0 +1,136 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+    background-color: #ffffff;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo {
+    width: 20%;
+    flex: 0 1 auto;
+}
+.logo a {}
+.logo img {}
+nav {
+    width: 80%;
+    flex: 0 1 auto;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul a {
+    padding: 40px 0px 40px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+nav ul a li {
+    list-style: none;
+}
+.banner {
+    width: 1200px;
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+}
+.content {
+    width: 1000px;
+    margin: auto;
+    padding: 70px 0px;
+}
+.content h4 {
+	padding-top: 35px;
+}
+.content h1 {
+	padding: 25px 0;
+}
+.content p {
+	font-size: 25px;
+	line-height: 30px;
+}
+.blog {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog1{
+    width: 50%;
+    flex: 0 1 auto;
+    padding: 20px 30px 20px 0;
+}
+.blog2{
+    width: 50%;
+    flex: 0 1 auto;
+    padding: 20px 0px 20px 30px;
+}
+.blog1 img {
+	width:100%;
+}
+.blog1 h4 {
+	padding-top: 35px;
+}
+.blog1 h1 {
+    padding: 25px 0;
+}
+.blog1 p {
+	font-size: 25px;
+    line-height: 30px;
+}
+.blog2 img {
+	width:100%;
+}
+.blog2 h4 {
+    padding-top: 35px;
+}
+.blog2 h1 {
+    padding: 25px 0;
+}
+.blog2 p {
+	font-size: 25px;
+    line-height: 30px;
+}
+footer {
+    background-color: #e4e4e4;
+    padding: 25px;
+}
+.nav2 {
+    width: 50%;
+    flex: 0 1 auto;
+    padding-left: 90px;
+}
+.nav2 ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.nav2 ul a {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+.nav2 ul a li {
+    list-style: none;
+    padding: 10px;
+}
+.follow {
+	width: 50%;
+	flex: 0 1 auto;
+}
+.follow h5 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: larger;
+}
